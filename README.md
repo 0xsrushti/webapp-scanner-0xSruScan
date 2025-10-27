@@ -45,3 +45,21 @@ python app.py
 **Notes**
 - Only scan targets you own or have explicit permission to test.
 - This is a learning project — results are noisy and not exhaustive.
+
+
+## 📸 Screenshots
+
+### Project Overview
+![Project Structure](screenshots/1_project_structure.png)
+
+### Running Flask Server
+![Flask Running](screenshots/2_flask_running.png)
+
+### Web Interface
+![Web Interface](screenshots/3_web_interface.png)
+
+### Scan in Progress
+![Scan Running](screenshots/4_scan_running.png)
+
+### Scan Results
+![Scan Results](screenshots/5_scan_results.png)
