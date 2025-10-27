@@ -50,7 +50,7 @@ python app.py
 ## 📸 Screenshots
 
 ### Project Overview
-![Project Structure](screenshots/1_project_structure.png)
+![Project Structure](screenshots/project_structure.png)
 
 ### Running Flask Server
 ![Flask Running](screenshots/2_flask_running.png)
