@@ -59,7 +59,7 @@ python app.py
 ![Web Interface](screenshots/web_interface.png)
 
 ### Scan in Progress
-![Scan Running](screenshots/4_scan_running.png)
+![Scan Running](screenshots/scan_running.png)
 
 ### Scan Results
-![Scan Results](screenshots/5_scan_results.png)
+![Scan Results](screenshots/scan_results.png)
