@@ -56,7 +56,7 @@ python app.py
 ![Flask Running](screenshots/app-py.png)
 
 ### Web Interface
-![Web Interface](screenshots/3_web_interface.png)
+![Web Interface](screenshots/web_interface.png)
 
 ### Scan in Progress
 ![Scan Running](screenshots/4_scan_running.png)
