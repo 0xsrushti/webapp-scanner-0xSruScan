@@ -53,7 +53,7 @@ python app.py
 ![Project Structure](screenshots/project_structure.png)
 
 ### Running Flask Server
-![Flask Running](screenshots/2_flask_running.png)
+![Flask Running](screenshots/app-py.png)
 
 ### Web Interface
 ![Web Interface](screenshots/3_web_interface.png)
