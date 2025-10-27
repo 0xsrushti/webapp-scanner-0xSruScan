@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>webapp-scanner-0xSruScan</title>
+    <style>
+      body{font-family: Arial, sans-serif;margin:40px}
+      input,button{padding:8px;font-size:14px}
+      pre{background:#f6f6f6;padding:12px}
+    </style>
+  </head>
+  <body>
+    <h1>webapp-scanner-0xSruScan</h1>
+    <p>Enter a target (example: http://localhost:3000) — only test targets you own.</p>
+    <input id="target" placeholder="https://example.local" size="50" />
+    <button onclick="start()">Scan</button>
+    <h3>Results</h3>
+    <pre id="out">No scan yet.</pre>
+
+    <script>
+      async function start(){
+        const t = document.getElementById('target').value;
+        document.getElementById('out').innerText = 'Scanning...';
+        const res = await fetch('/api/scan', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({target:t})});
+        const j = await res.json();
+        document.getElementById('out').innerText = JSON.stringify(j, null, 2);
+      }
+    </script>
+  </body>
+</html>
