@@ -20,6 +20,10 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 --------------------------------------
+#Then reload the shell:
+
+source ~/.bashrc (or ~/.zshrc if using zsh)
+--------------------------------------
 pyenv virtualenv 3.12.7 webapp-scanner
 pyenv activate webapp-scanner
 ```
