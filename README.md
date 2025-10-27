@@ -1,0 +1,34 @@
+# webapp-scanner-0xSruScan
+
+Minimal web application vulnerability scanner (educational). Tests for reflected XSS, naive SQLi, missing CSRF tokens, and missing security headers.
+
+## DOM XSS
+This version includes a DOM XSS headless verifier using Playwright. To run the verifier you must install Playwright browsers as shown below.
+
+**Usage**
+
+1. Create a virtualenv and install dependencies:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+2. Install Playwright browser binaries:
+
+```bash
+python -m playwright install chromium
+```
+
+3. Run the app:
+
+```bash
+python app.py
+```
+
+4. Open `http://127.0.0.1:5000` and enter a target (for testing use OWASP Juice Shop on port 3000).
+
+**Notes**
+- Only scan targets you own or have explicit permission to test.
+- This is a learning project — results are noisy and not exhaustive.
