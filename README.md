@@ -10,9 +10,18 @@ This version includes a DOM XSS headless verifier using Playwright. To run the v
 1. Create a virtualenv and install dependencies:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+pyenv install 3.12.7
+curl https://pyenv.run | bash
+--------------------------------
+#Add the following to ~/.bashrc (or ~/.zshrc if using zsh):
+
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+--------------------------------------
+pyenv virtualenv 3.12.7 webapp-scanner
+pyenv activate webapp-scanner
 ```
 
 2. Install Playwright browser binaries:
