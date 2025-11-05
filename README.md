@@ -14,7 +14,7 @@ pyenv install 3.12.7
 curl https://pyenv.run | bash
 ```
 --------------------------------
-#Add the following to ~/.bashrc (or ~/.zshrc if using zsh):
+# Add the following to ~/.bashrc (or ~/.zshrc if using zsh):
 ```bash
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
@@ -22,7 +22,7 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 --------------------------------------
-#Then reload the shell:
+# Then reload the shell:
 ```bash
 source ~/.bashrc (or ~/.zshrc if using zsh)
 --------------------------------------
