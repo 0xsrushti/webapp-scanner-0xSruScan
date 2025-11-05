@@ -12,16 +12,18 @@ This version includes a DOM XSS headless verifier using Playwright. To run the v
 ```bash
 pyenv install 3.12.7
 curl https://pyenv.run | bash
+```
 --------------------------------
 #Add the following to ~/.bashrc (or ~/.zshrc if using zsh):
-
+```bash
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+```
 --------------------------------------
 #Then reload the shell:
-
+```bash
 source ~/.bashrc (or ~/.zshrc if using zsh)
 --------------------------------------
 pyenv virtualenv 3.12.7 webapp-scanner
@@ -63,3 +65,8 @@ python app.py
 
 ### Scan Results
 ![Scan Results](screenshots/scan_results.png)
+
+---
+## 👩‍💻 Author
+**Srushti Dave**
+---
