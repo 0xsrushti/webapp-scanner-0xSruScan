@@ -7,7 +7,7 @@ This version includes a DOM XSS headless verifier using Playwright. To run the v
 
 **Usage**
 
-1. Create a virtualenv and install dependencies:
+### 1. Create a virtualenv and install dependencies:
 
 ```bash
 pyenv install 3.12.7
@@ -30,19 +30,19 @@ pyenv virtualenv 3.12.7 webapp-scanner
 pyenv activate webapp-scanner
 ```
 
-2. Install Playwright browser binaries:
+### 2. Install Playwright browser binaries:
 
 ```bash
 python -m playwright install chromium
 ```
 
-3. Run the app:
+### 3. Run the app:
 
 ```bash
 python app.py
 ```
 
-4. Open `http://127.0.0.1:5000` and enter a target (for testing use OWASP Juice Shop on port 3000).
+### 4. Open `http://127.0.0.1:5000` and enter a target (for testing use OWASP Juice Shop on port 3000).
 
 **Notes**
 - Only scan targets you own or have explicit permission to test.
